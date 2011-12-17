@@ -1,0 +1,39 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: top;
+	background-color: transparent;
+}
+
+body { font-size: .75em; }
+
+h1 { font-size: 2.8em; }
+h2 { font-size: 2.2em; }
+h3 { font-size: 1.6em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1em; }
+
+a { text-decoration: none; color: #666; }
+a:hover { text-decoration: underline; }
+
+img { border: none; }
+
+p { line-height: 1.6em; }
+
+input[type=text], textarea, select { border: 1px solid #ccc; padding: 2px; color: #666; }
+input[type=submit] { border: 1px solid #ccc; background-color: #fff; color: #666; cursor: pointer; }
+input[type=submit]:hover { background-color: #f3f3f3; }
+
+ul, ol { padding: 0 0 0 20px; }

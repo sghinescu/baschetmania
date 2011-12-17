@@ -1,0 +1,61 @@
+/* This is the Main Logo */
+#logo {background: url(../images/light/logo.png) 0 0 no-repeat;}
+
+/* Top Bar */
+#topbar {background: url(../images/light/topbar-m.png) 0 0 repeat-x;}
+#topbar2 {background: url(../images/light/topbar-l.png) 0 0 no-repeat;}
+#topbar3 {background: url(../images/light/topbar-r.png) 100% 0 no-repeat;}
+#showcase {border: 1px solid #ccc;border-top: 0;}
+
+/* Main Body */
+body {background: #fff;}
+#page-bg {background: url(../images/light/page-bg.png) 50% 0 repeat-x;}
+#bl.corner, .bottom-bl {background: url(../images/light/maincontent-bl.png);}
+#br.corner, .bottom-br {background: url(../images/light/maincontent-br.png);}
+#tl.corner, .bottom-tl {background: url(../images/light/maincontent-tl.png);}
+#tr.corner, .bottom-tr {background: url(../images/light/maincontent-tr.png);}
+.show-bl {background: url(../images/light/showcase-bl.png);}
+.show-br {background: url(../images/light/showcase-br.png);}
+#main-content {border: 1px solid #ccc;}
+#bl.corner {bottom:0;left:0;}
+#br.corner {bottom:0;right:0;}
+#tl.corner {top:0;left:0;}
+#tr.corner {top:0;right:0;}
+#bottom-main2 {border: 1px solid #ccc;}
+
+/* Horizontal Menu */
+
+#horiz-menu li:hover .link, #horiz-menu li.sfHover .link {z-index: 100;cursor: pointer;margin: 0;color: #555;}
+#horiz-menu .link {white-space: nowrap;display: block;float: left;height: 30px;line-height: 30px;font-weight: normal;font-size: 14px;text-decoration: none;z-index: 100;cursor: pointer;padding: 0;color: #555;}
+#horiz-menu li:hover .link, #horiz-menu li.sfHover .link, #horiz-menu li.active .link {z-index: 100;cursor: pointer;margin: 0;color: #555;}
+
+
+#horiz-menu li.parent.sfHover .topdaddy {background: url(../images/light/menu-tab2-r.png) 100% 0 no-repeat;}
+#horiz-menu li.parent.sfHover .topdaddy span {background: url(../images/light/menu-tab2-l.png) 0 0 no-repeat;}
+#horiz-menu li.active , #horiz-menu li:hover , #horiz-menu li.sfHover  {background: url(../images/light/menu-tab-r.png) 100% 0 no-repeat;}
+#horiz-menu li.active  span, #horiz-menu li:hover  span, #horiz-menu li.sfHover  span {background: url(../images/light/menu-tab-l.png) 0 0 no-repeat;}
+/* IE6 Fix */
+#horiz-menu li.parent-sfHover , #horiz-menu li.parent-sfHover .topdaddy {background: url(../images/light/menu-tab2-r.png) 100% 0 no-repeat;}
+#horiz-menu li.parent-sfHover  span, #horiz-menu li.parent-sfHover .topdaddy span {background: url(../images/light/menu-tab2-l.png) 0 0 no-repeat;}
+
+#horiz-menu li.active , #horiz-menu li:hover , #horiz-menu li.sfHover  {color: #000;}
+
+#horiz-menu ul ul.columns-1 {background: url(../images/light/drop-bg-1.png) 0 100% no-repeat;}
+#horiz-menu ul ul.columns-2 {background: url(../images/light/drop-bg-2.png) 0 100% no-repeat;}
+#horiz-menu ul ul.columns-3 {background: url(../images/light/drop-bg-3.png) 0 100% no-repeat;}
+#horiz-menu ul ul.columns-4 {background: url(../images/light/drop-bg-4.png) 0 100% no-repeat;}
+#horiz-menu li li {border-bottom: 1px solid #ccc;}
+#horiz-menu ul ul li .daddy, #horiz-menu ul li.parent.active:hover li .daddy, #horiz-menu ul li.parent.active.sfHover li .daddy, #horiz-menu ul li.parent:hover li .daddy, #horiz-menu ul li.parent.sfHover li .daddy {background: url(../images/light/drop-arrow.png) 95% 12px no-repeat;}
+.menutop .submenu-animation-left {background: url(../images/light/drop-hover.png) 0 0 repeat-x;}
+#horiz-menu.suckerfish li li:hover, #horiz-menu.suckerfish li li.sfHover {background: url(../images/light/drop-hover.png) 0 0 repeat-x;}
+
+/* Bottom Section */
+#botbar {background: url(../images/light/topbar-m.png) 0 0 repeat-x;}
+#botbar2 {background: url(../images/light/topbar-l.png) 0 0 no-repeat;}
+#botbar3 {background: url(../images/light/topbar-r.png) 100% 0 no-repeat;}
+#footer2 {background: url(../images/light/footer-bl.png) 0 100% no-repeat;}
+#footer3 {background: url(../images/light/footer-br.png) 100% 100% no-repeat;border-top:  1px solid #000;}
+#footerbar {background: url(../images/light/footerbar-m.png) 0 0 repeat-x;}
+#footerbar2 {background: url(../images/light/footerbar-l.png) 0 0 no-repeat;}
+#footerbar3 {background: url(../images/light/footerbar-r.png) 100% 0 no-repeat;}
+#rocket {background: url(../images/light/rocket.png) 0 0 no-repeat;}

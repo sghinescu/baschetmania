@@ -1,0 +1,60 @@
+body { color: #666; }
+
+/* layout */
+.wrapper-outer { margin: 0 auto; padding: 0; width: 960px; }
+.wrapper { position: relative; }
+.wrapper-inner { margin: 0; padding: 10px 0; }
+.region { position: relative; }
+.region-inner { position: relative; }
+
+/* Blocks */
+.block-inner { padding: 10px 0; }
+
+/* Header */
+#header { min-height: 100px; }
+#logo-title { float: left; }
+#logo { float: left; margin-right: 10px; }
+#name-and-slogan { float: left; }
+#header-block { float: right; }
+
+/* Navigation */
+#navigation { position: relative; z-index: 100; }
+#navigation .menubar { height: 25px; }
+#navigation ul.menu, #navigation ul.menu li, #navigation ul.menu li a { margin: 0; padding: 0; display: block; height: 25px; line-height: 2em; }
+#navigation ul.menu ul.menu, #navigation ul.menu ul.menu li { height: auto; width: 150px; }
+
+#navigation ul.menu li { position: relative; float: left; }
+#navigation ul.menu li:hover ul.menu { display: block; }
+#navigation ul.menu li a { margin: 0; padding: 0 10px; display: block; background-color: #f3f3f3; }
+#navigation ul.menu li a:hover {  background-color: #ccc; text-decoration: none; }
+#navigation ul.menu li:hover>a {  background-color: #ccc;}
+
+#navigation ul.menu ul.menu { display: none; position: absolute; left: 0; top: 25px; widows: 150px; }
+#navigation ul.menu ul.menu li { height: auto; }
+#navigation ul.menu ul.menu li:hover>ul.menu { display: block; }
+#navigation ul.menu ul.menu li a { width: 130px; height: auto; line-height: normal; padding: 5px 10px; }
+
+#navigation ul.menu ul.menu ul.menu { display: none; left: 150px; top: 0; }
+
+/* Container */
+#main {}
+.two-sidebars #main { width: 540px; float: right; margin-right: 10px; }
+.one-sidebar #main { width: 740px; }
+.sidebar-first #main { float: right; }
+.sidebar-second #main { float: left; }
+
+/* Sidebars */
+#sidebar-first { width: 200px; float: left; }
+#sidebar-second { width: 200px; float: right; }
+
+/* Footer */
+#footer { text-align: center; }
+
+/* Misc */
+body.om-tools-no-title h1#page-title { display: none; }
+.messages { background-color: #FFC; padding: 5px; margin: 5px; border: 1px solid #FF0; }
+#legal { text-align: center; padding: 5px; color: #ccc; }
+#legal a { color: #ccc; }
+.om-clearfix { clear: both; }
+
+

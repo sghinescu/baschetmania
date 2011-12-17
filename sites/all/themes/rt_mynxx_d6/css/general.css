@@ -1,0 +1,124 @@
+/* @group Admin Tabs */
+
+ul.primary {
+  border-collapse: collapse;
+  padding: 0 0 0 10px; /* LTR */
+  white-space: nowrap;
+  list-style: none;
+  margin: 0;
+  height: 40px;
+  line-height: normal;
+  border-bottom: 0px solid #ccc;
+  background: #fff url(../images/tabs/tabs_bg.png) left bottom repeat-x;    /* LTR */
+}
+ul.primary li {
+  display: inline;
+  line-height: 45px;
+}
+ul.primary li a {
+  margin: -2px;
+  padding: 6px 20px 6px 20px;
+  background: #fff url(../images/tabs/tabs-off.png) left top no-repeat; /* LTR */
+  /*border-style: none none none none;*/ /* LTR */
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-decoration: none;
+  /*text-transform: lowercase;*/
+  color: #999;
+}
+ul.primary li.active a {
+  background: #fff url(../images/tabs/tabs-on.png) left top no-repeat; /* LTR */
+  border-top: 1.5px solid #ccc;
+  border-right: 1.5px solid #ccc;
+  border-left: 1.5px solid #ccc;
+  border-bottom: 0px solid #E4E4E4;
+  color: #555;
+}
+ul.primary li a:hover {
+  color: #000;
+}
+
+#main-body ul.menu .leaf a, #main-body ul.menu .collapsed a {padding: 7px 28px;background: url(../images/main/menu-arrow.png) 15px 11px no-repeat;}
+#main-body ul.menu .leaf a:hover, #main-body ul.menu .collapsed a:hover {background: url(../images/main/menu-arrow-over.png) 15px 11px no-repeat;}
+#main-body ul.menu .expanded a {padding: 7px 28px;background: url(../images/main/menu-arrow.png) 15px 11px no-repeat;}
+#main-body ul.menu .expanded a:hover {background: url(../images/main/menu-arrow.png) 15px 11px no-repeat;}
+
+#main-body ul.menu li.active a, #main-body ul.menu li:hover a, #main-body ul.menu li.active .separator {background: none;}
+
+#main-body ul.menu .expanded ul.menu a { background: none; }
+#main-body ul.menu .expanded ul.menu li {list-style: none;margin: 0;padding: 0;float: none;border-bottom: 0px solid #ccc; }
+
+#bottom-menu ul.menu .leaf { 
+	float: left; 
+	border-bottom: 0px solid #000;
+}
+
+#rightcol .side-mod .item-list h3 { background: none; margin-left: -15px; border-bottom: 0;}
+
+body.dark-red .poll .bar .foreground, body.light-red .poll .bar .foreground { background-color: #cf230b; }
+body.dark-blue .poll .bar .foreground, body.light-blue .poll .bar .foreground { background-color: #2986d0; }
+body.dark-green .poll .bar .foreground, body.light-green .poll .bar .foreground { background-color: #578e13; }
+body.dark-orange .poll .bar .foreground, body.light-orange .poll .bar .foreground { background-color: #f0722e; }
+
+#poll-view-voting input.button {background: url(../images/main/form-input-w.png) 0 0 no-repeat;width:79px;height:24px;cursor:pointer;border: none;overflow:hidden;text-align: center;color: #333;padding: 0 0 4px 0;line-height: 24px;margin-bottom: 5px;float: left;}
+#leftcol #poll-view-voting input.button {background: url(../images/main/form-input-g.png) 0 0 no-repeat;}
+
+input.form-submit {
+	cursor:pointer;
+	text-align: center;
+	background-color: #E6E6E6;
+	padding: 2px 8px 2px 8px;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	text-transform: uppercase;
+	/*background: url(../images/main/dark/readon-m.png) 50% 0 repeat-x;*/
+}
+
+ul.secondary {
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+}
+
+ul.secondary li.active {
+  border: 0;
+  background: transparent;
+  padding: 4px 1em;
+  margin: 0 0 0 1px; /* LTR */
+  height: auto;
+  text-decoration: none;
+  position: relative;
+  top: -1px;
+  display: inline-block;
+}
+
+#edit-vote {
+	border: 0px;
+	background-color: transparent;
+	margin-top: 1px;
+}
+
+#edit-name-wrapper, #edit-pass-wrapper {
+	text-align: left;
+}
+
+#edit-name, #edit-pass {
+	width: 160px;
+}
+
+#sl_lostpass {
+	display: none;
+}
+
+
+tbody {
+  border-top: 0px solid #ccc;
+}
+
+.block-region {
+  padding: 1em;
+  background: transparent;
+  border: 2px dashed #ccc;
+  text-align: center;
+  font-size: 1.3em;
+}

@@ -1,0 +1,49 @@
+/* This is the Main Logo */
+#logo {background: url(../images/dark/logo.png) 0 0 no-repeat;}
+
+/* Top Bar */
+#topbar {background: url(../images/dark/topbar-m.png) 0 0 repeat-x;}
+#topbar2 {background: url(../images/dark/topbar-l.png) 0 0 no-repeat;}
+#topbar3 {background: url(../images/dark/topbar-r.png) 100% 0 no-repeat;}
+
+/* Main Body */
+body {background: #000;}
+#page-bg {background: url(../images/dark/page-bg.png) 50% 0 repeat-x;}
+#bl.corner, .bottom-bl {background: url(../images/dark/maincontent-bl.png);}
+#br.corner, .bottom-br {background: url(../images/dark/maincontent-br.png);}
+#tl.corner, .bottom-tl {background: url(../images/dark/maincontent-tl.png);}
+#tr.corner, .bottom-tr {background: url(../images/dark/maincontent-tr.png);}
+.show-bl {background: url(../images/dark/maincontent-bl.png);}
+.show-br {background: url(../images/dark/maincontent-br.png);}
+
+/* Horizontal Menu */
+#horiz-menu li, #horiz-menu li  {color: #ccc;}
+#horiz-menu li.parent.sfHover .topdaddy {background: url(../images/dark/menu-tab2-r.png) 100% 0 no-repeat;}
+#horiz-menu li.parent.sfHover .topdaddy span {background: url(../images/dark/menu-tab2-l.png) 0 0 no-repeat;}
+#horiz-menu li.active , #horiz-menu li:hover , #horiz-menu li.sfHover  {background: url(../images/dark/menu-tab-r.png) 100% 0 no-repeat;}
+#horiz-menu li.active  span, #horiz-menu li:hover span, #horiz-menu li.sfHover span {background: url(../images/dark/menu-tab-l.png) 0 0 no-repeat;}
+/* IE6 Fix */
+#horiz-menu li.parent-sfHover, #horiz-menu li.parent-sfHover .topdaddy {background: url(../images/dark/menu-tab2-r.png) 100% 0 no-repeat;}
+#horiz-menu li.parent-sfHover span, #horiz-menu li.parent-sfHover .topdaddy span {background: url(../images/dark/menu-tab2-l.png) 0 0 no-repeat;}
+
+#horiz-menu li.active, #horiz-menu li:hover, #horiz-menu li.sfHover {color: #fff;}
+
+#horiz-menu ul ul.columns-1 {background: url(../images/dark/drop-bg-1.png) 0 100% no-repeat;}
+#horiz-menu ul ul.columns-2 {background: url(../images/dark/drop-bg-2.png) 0 100% no-repeat;}
+#horiz-menu ul ul.columns-3 {background: url(../images/dark/drop-bg-3.png) 0 100% no-repeat;}
+#horiz-menu ul ul.columns-4 {background: url(../images/dark/drop-bg-4.png) 0 100% no-repeat;}
+#horiz-menu li li {border-bottom: 1px solid #333;}
+#horiz-menu ul ul li .daddy, #horiz-menu ul li.parent.active:hover li .daddy, #horiz-menu ul li.parent.active.sfHover li .daddy, #horiz-menu ul li.parent:hover li .daddy,  #horiz-menu ul li.parent.sfHover li .daddy {background: url(../images/dark/drop-arrow.png) 95% 12px no-repeat;}
+.menutop .submenu-animation-left {background: url(../images/dark/drop-hover.png) 0 0 repeat-x;}
+#horiz-menu.suckerfish li li:hover, #horiz-menu.suckerfish li li.sfHover {background: url(../images/dark/drop-hover.png) 0 0 repeat-x;}
+
+/* Bottom Section */
+#botbar {background: url(../images/dark/topbar-m.png) 0 0 repeat-x;}
+#botbar2 {background: url(../images/dark/topbar-l.png) 0 0 no-repeat;}
+#botbar3 {background: url(../images/dark/topbar-r.png) 100% 0 no-repeat;}
+#footer2 {background: url(../images/dark/footer-bl.png) 0 100% no-repeat;}
+#footer3 {background: url(../images/dark/footer-br.png) 100% 100% no-repeat;border-top: 1px solid #000;}
+#footerbar {background: url(../images/dark/footerbar-m.png) 0 0 repeat-x;}
+#footerbar2 {background: url(../images/dark/footerbar-l.png) 0 0 no-repeat;}
+#footerbar3 {background: url(../images/dark/footerbar-r.png) 100% 0 no-repeat;}
+#rocket {background: url(../images/dark/rocket.png) 0 0 no-repeat;}

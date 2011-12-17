@@ -1,0 +1,39 @@
+
+; name, description, screenshot, version - these are necessary for theme list
+name        = "OM Base Theme"
+description = "For more info, read the <a href="http://drupal.org/node/1056254">OM Theme Documentation</a>"
+screenshot  = "screenshot.png"
+
+
+; compatibilities
+core        = "7.x"
+engine      = phptemplate
+
+; default stylesheets
+; reset          - common browser default inconsistencies on tags
+stylesheets[all][] = "css/reset.css"
+stylesheets[all][] = "css/om.css"
+
+; jquery scripts
+scripts[]       = "js/om.js"
+
+; default regions, on the left inside the brackets 
+; are the variable names used in "page.tpl.php",
+; on right side are the names necessary for blocks list
+
+regions[header]         = Header
+regions[main_menu]      = Main Menu
+regions[highlighted]    = Highlighted
+regions[content]        = Content
+regions[sidebar_first]  = "Sidebar - First"
+regions[sidebar_second] = "Sidebar - Second"
+regions[footer]         = Footer
+
+
+
+; Information added by drupal.org packaging script on 2011-06-11
+version = "7.x-1.17"
+core = "7.x"
+project = "om"
+datestamp = "1307800319"
+

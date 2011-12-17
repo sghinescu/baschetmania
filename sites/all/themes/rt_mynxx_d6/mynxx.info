@@ -1,0 +1,47 @@
+name = Mynxx
+project = rt_mynxx_d6
+project status url = http://updates.rockettheme.com/drupal/release-history
+description = Rockettheme Mynxx Theme for Drupal
+version = 7.x-1.0
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = /css/style.css
+stylesheets[print][] = /css/print.css
+
+features[] = slogan
+features[] = favicon
+
+regions[advertisement] = Advertisement
+regions[showcase] = Showcase
+
+
+regions[searchleft] = Search Left
+regions[left] = Left
+
+regions[user123] = User 123
+regions[inset] = Inset
+regions[inset2] = Inset2
+regions[user456] = User 456
+
+regions[searchright] = Search Right
+regions[right] = Right
+
+regions[user789] = User 789
+regions[popup] = Popup
+regions[bottom] = Bottom
+
+regions[bottommenu] = Bottom Menu
+regions[footer] = Footer
+regions[debug] = Debug
+
+
+stylesheets[all][] = css/typography.css
+stylesheets[all][] = css/headers.css
+stylesheets[all][] = css/drupal.css
+stylesheets[all][] = css/template_css.css
+
+
+
+
+
