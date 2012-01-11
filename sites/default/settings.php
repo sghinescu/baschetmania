@@ -182,7 +182,7 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'boron',
+      'database' => 'baschetmania',
       'username' => 'root',
       'password' => 'nokia2',
       'host' => 'localhost',
